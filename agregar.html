@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Agregado de Libros</title>
+	</head>
+	<body>
+		<header>
+			<h1>¡Bienvenido a la bliblioteca Vicentina!</h1>
+		</header>
+		<nav>
+    		<!-- navigation menu goes in here -->
+    		<p><a href="Laboratorio1.html">Inicio</a>    <a href="mostrar.html">Mostrar Libros</a>    <a href="agregar.html">Agregar Libros</a></p>
+	  	</nav>
+  		<section id="main">
+    		<!-- main page content goes in here -->
+	    	<h1>Datos de Libros</h1>
+	    	<form method="post" action="enviado.html">
+	    		<h3>Título</h3>
+	    		<p>
+	    			<input type="text" name="Titulo" required>
+	    		</p>
+	    		<h3>Autor</h3>
+	    		<p>
+	    			<input type="text" name="Autor" required>
+	    		</p>
+	    		<h3>Año</h3>
+	    		<p>
+	    			<input type="text" name="Anno" required>
+	    		</p>
+	    		<h3>Medio</h3>
+	    		<p>
+		    		<label>Electrónico
+		    			<input type="checkbox" name="Electrónico">
+	    			</label>
+	    			<label>Impreso
+	    				<input type="checkbox" name="Impreso">
+		    		</label>
+	    		</p>
+	    		<h3>Idioma</h3>
+	    		<p>
+		    		<label>Inglés
+		    			<input type="radio" name="Idioma" value="Inglés" required>
+	    			</label>
+	    			<label>Español
+	    				<input type="radio" name="Idioma" value="Español">
+		    		</label>
+	    		</p>
+	    		<h3>Area</h3>
+	    		<p>
+	    			<select>
+	    				<option>Ficción</option>
+	    				<option>Física</option>
+	    				<option>Bases de Datos</option>
+	    				<option>Matemáticas</option>
+	    				<option>Electrónica</option>
+	    				<option>Programación</option>
+	    				<option>Deporte</option>
+	    				<option>Historia</option>
+	    			</select>
+	    		</p>
+	    		<h3>Comentarios</h3>
+	    		<p>
+	    			<textarea></textarea>
+	    		</p>
+	    		<p>
+	    			<input type="submit" name="Enviar">
+	    			<input type="reset" name="Vaciar" value="Vaciar">
+	    		</p>
+	    	</form>
+		</section>
+		<footer>
+    		<!-- footer content goes in here -->
+    		<p>Realizado por Vicente Reyes Avila. Tecnologías Vicentinas SA de CV, todos los derechos reservados.</p>
+  		</footer>
+  	</body>
+</html>

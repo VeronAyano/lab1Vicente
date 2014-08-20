@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Agregado de Libros</title>
+	</head>
+	<body>
+		<header>
+			<h1>¡Bienvenido a la bliblioteca Vicentina!</h1>
+		</header>
+		<nav>
+    		<!-- navigation menu goes in here -->
+    		<p><a href="Laboratorio1.html">Inicio</a>    <a href="mostrar.html">Mostrar Libros</a>    <a href="agregar.html">Agregar Libros</a></p>
+	  	</nav>
+  		<section id="main">
+    		<!-- main page content goes in here -->
+    		<video width="320" height="240" controls>
+  				<source src="medios/movie.mp4" type="video/mp4">
+  				<source src="medios/movie.ogg" type="video/ogg">
+  				Your browser does not support the video tag.
+			</video>
+			<audio controls>
+  				<source src="medios/horse.ogg" type="audio/ogg">
+  				<source src="medios/horse.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/h_MdxrTtBrc" frameborder="0" allowfullscreen></iframe>
+			<svg width="300" height="200">
+   				<polygon points="100,10 40,198 190,78 10,78 160,198"
+   				style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+   				Sorry, your browser does not support inline SVG.
+			</svg>
+			<h1>Datos de Libros</h1>
+	    	<form method="post" action="enviado.html">
+	    		<h3>Color</h3>
+	    		<input type="color">
+	    		<h3>Date</h3>
+	    		<input type="date">
+	    		<h3>DateTime</h3>
+	    		<input type="datetime">
+	    		<h3>DateTime-Local</h3>
+	    		<input type="datetime-local">
+	    		<h3>E-mail</h3>
+	    		<input type="email" placeholder="name@domain.com" required>
+	    		<h3>Month</h3>
+	    		<input type="month" required>
+	    		<h3>Number</h3>
+	    		<input type="number" min="0" max="7" step="1" value="4" required>
+	    		<h3>Range</h3>
+	    		<input type="range" min="0" max="20" value="10" required>
+	    		<h3>Search</h3>
+	    		<input type="search" placeholder="search query">
+	    		<h3>Tel</h3>
+	    		<input type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\) +\d{3}-\d{4}">
+	    		<h3>Time</h3>
+	    		<input type="time" required>
+	    		<h3>Url</h3>
+	    		<input type="url" placeholder="http://www.domainname.com" required>
+	    		<h3>Week</h3>
+	    		<input type="week" required>
+	    		<input type="submit">
+	    	</form>
+		</section>
+		<footer>
+    		<!-- footer content goes in here -->
+    		<p>Realizado por Vicente Reyes Avila. Tecnologías Vicentinas SA de CV, todos los derechos reservados.</p>
+  		</footer>
+  	</body>
+</html>
